@@ -17,3 +17,15 @@ for (i = 0; i < iterations; i++);
     }
 }
 Console.Writeline((float)yes/iterations)
+{
+   set = n as value
+   if (rand.Next(10-15)) n<25
+    if n<25
+    DropItem(new Item3)
+}
+{
+    if (rand.Next(15-30)) n>25
+    if n>25
+    PutItem (Item 3)
+}
+
