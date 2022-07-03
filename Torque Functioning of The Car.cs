@@ -19,3 +19,17 @@ set m as lever arm ;
         
     }
 }
+#pragma strict
+//engine powerband 
+set motor speed = rpm ;
+set pairs of poles = 10 ;
+{
+    get {(frequency * 60) / pairs of poles}
+    {
+        if (value = 700 rpm) ;
+        var minRPM = 700 rpm ;
+        if (value = 6000 rpm) ;
+        var maxRPM = 6000 rpm; 
+    } set //maximum Engine Torque 
+    var maxTorque = 400 ; 
+}
